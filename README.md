@@ -1,5 +1,5 @@
-# Warning
-This is a personal **unofficial** project. I have no affiliation with Bitwarden. Use at your own risk. Issues and feedback are welcome.
+# This is a fork of:
+[Bitwarden Secrets Manager Python](https://github.com/jdhalbert/bitwarden_secrets_manager_python/)
 
 # Python wrapper for [Bitwarden Secrets Manager](https://bitwarden.com/help/secrets-manager-overview/) CLI
 This module contains the `BWS` class, which is a Python wrapper for the `bws` [CLI application](https://bitwarden.com/help/secrets-manager-cli/). The `BWS` class allows users to retrieve secrets stored in a Bitwarden Secrets Manager project. The module uses `subprocess` to call the `bws` CLI. The `bws` CLI application (v.0.4.0+) must be [downloaded separately](https://github.com/bitwarden/sdk/releases) and already present on your system (ideally in a `PATH` directory). 
